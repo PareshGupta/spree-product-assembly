@@ -1,4 +1,4 @@
-if defined?(Spree::Wombat)
+if defined?(Spree::Wombat::ShipmentSerializer)
   module Spree
     module Wombat
       class AssemblyShipmentSerializer < ShipmentSerializer
